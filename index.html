@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignemnt-2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- Reverse a String -->
+    <div class="reverse_string">
+        <div class="reverseString">
+            <div class="reverse_container">
+                <div class="heading">
+                    <h1>Reverse a String</h1>
+                </div>
+                <input type="text" id="word" placeholder="Enter a Value" onfocus="clearPlaceHolder(this)" onblur="appearPlaceHolder(this)">
+                <button id="reverse" type="submit">Reverse</button>
+                <div class="reverse_answer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Check for a Palindrome -->
+    <div class="check_palindrome">
+        <div class="palindrome">
+            <div class="palindrome_container">
+                <div class="heading">
+                    <h1>Check Palindrome</h1>
+                </div>
+                <input type="text" id="palindrome_word" placeholder="Enter a Value" onfocus="clearPlaceHolder(this)" onblur="appearPlaceHolder(this)">
+                <button id="palindrome" type="submit">Palindrome</button>
+                <div class="palindrome_answer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="check_sum">
+        <div class="restaurant">
+            <div class="restaurant_container">
+                <div class="heading">
+                    <h1>Check Palindrome</h1>
+                </div>
+                <div class="input_container">
+                <div class="input_label">
+                    <label for="">Bill Amount:</label>
+                    <input type="number" id="bill_amount" placeholder="Enter a Value" onfocus="clearPlaceHolder(this)" onblur="appearPlaceHolder(this)">
+                </div>
+                <div class="input_label"> 
+                    <label for="">Tip:</label>
+                    <div class="tip">
+                        <input type="number" id="tip_percent" placeholder="Enter a Value" onfocus="clearPlaceHolder(this)" onblur="appearPlaceHolder(this)">
+                        <p>%</p>
+                    </div>
+                </div>
+                </div>
+                <button id="generate_bill" type="submit">Generate</button>
+                <div class="restaurant_answer">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/Javascript" src="./index.js"></script>
+</html>

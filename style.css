@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #222831;
+}
+hr{
+    border: 3px solid #00ADB5;
+    position: absolute;
+    width: 100vw;
+}
+/*----------------------------- Reverse a string, Palindrome, Restaunrant Bil and Tip -----------------------------*/
+.reverse_string,.check_palindrome,.check_sum{
+    height: 33vh;
+}
+.reverseString,.palindrome,.restaurant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reverse_container,.palindrome_container,.restaurant_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 100px;
+}
+.heading{
+    color: #F5E8B7;
+    margin-bottom: 15px;
+}
+.palindrome_container input, .reverse_container input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+}
+.palindrome_container input:focus, .reverse_container input:focus{
+    width: 300px;
+    outline: none;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid #00ADB5;
+}
+button{
+    margin-top: 20px;
+    background-color: #ffffff;
+    height: 45px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #00ADB5;
+    position: relative;
+    border: 2px solid #00ADB5;
+    border-radius: 25px;
+    transition: .15s ease-in-out;
+}
+button:hover{
+    margin-top: 20px;
+    background-color: #00ADB5;
+    height: 45px;
+    width: 150px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    border-radius: 25px;
+}
+.reverse_answer, .palindrome_answer, .restaurant_answer{
+    color: #00ADB5;
+    margin-top: 15px;
+    font-weight: 600;
+}
+/*----------------------------- Restaunrant Bil and Tip -----------------------------*/
+.input_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.input_label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tip{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.input_label input{
+    margin-top: 8px;
+    width: 300px;
+    height: 50px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+}
+.tip input{
+    margin-right: 7px;
+}
+.input_label input:focus{
+    width: 300px;
+    margin-top: 8px;
+    margin-left: 30px;
+    outline: none;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid #00ADB5;
+}
+label,p{
+    color: #b5b2a7;
+}
